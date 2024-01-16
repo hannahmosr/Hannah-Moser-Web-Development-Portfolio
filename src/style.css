@@ -1,5 +1,7 @@
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #c7b198;
+  color: #596e79;
 }
 h1,
 h2 {
@@ -12,6 +14,10 @@ ul {
   padding: 0;
 }
 
+a {
+  color: #596e79;
+}
+
 img {
   max-width: 100%;
   height: 400px;
@@ -21,10 +27,16 @@ img {
   padding: 20px;
 }
 
+header {
+  padding: 20px;
+}
+
 .container {
   max-width: 600px;
-  background: white;
+  background: #f0ece2;
   margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .main-menu {
@@ -32,6 +44,9 @@ img {
   justify-content: space-evenly;
   max-width: 600px;
   margin: 0 auto;
+  transition: all 150ms ease-in-out;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 20px;
 }
 
 .heading {
@@ -40,5 +55,26 @@ img {
   text-align: center;
 }
 
-.headshot-picture {
+.about-me:hover {
+  background-color: blanchedalmond;
+  cursor: pointer;
+  color: rgb(151 103 44);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.my-work:hover {
+  background-color: blanchedalmond;
+  cursor: pointer;
+  color: rgb(151 103 44);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact:hover {
+  background-color: blanchedalmond;
+  cursor: pointer;
+  color: rgb(151 103 44);
+  padding: 20px;
+  border-radius: 8px;
 }
