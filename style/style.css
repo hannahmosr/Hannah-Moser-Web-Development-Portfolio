@@ -1,3 +1,21 @@
+@media (max-width: 600px) {
+  body {
+    text-align: center;
+  }
+  .container {
+    margin-top: 0 !important;
+  }
+
+  .container p {
+    margin: 55px 85px !important;
+  }
+
+  .hero-button {
+    border-radius: 20px !important;
+    padding: 25px 40px !important;
+  }
+}
+
 :root {
   --main-heading-font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
