@@ -96,3 +96,8 @@ p {
   background-color: var(--secondary-branding-color);
   color: white;
 }
+
+.hannah-photo {
+  max-width: 100%;
+  border-radius: 20px;
+}
