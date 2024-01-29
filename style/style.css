@@ -26,6 +26,10 @@
     font-size: 25px !important;
   }
 
+  .about-page .container p {
+    margin: 30px 20px !important;
+  }
+
   .hannah-photo {
     width: 100%;
     padding-left: 55px;
@@ -124,7 +128,7 @@ p {
 
 .hannah-photo {
   max-width: 100%;
-  border-radius: 20px;
+  margin-top: 100px;
 }
 
 .view-projects-button {
