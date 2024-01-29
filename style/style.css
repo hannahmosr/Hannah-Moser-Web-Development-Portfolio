@@ -97,6 +97,15 @@ p {
   color: white;
 }
 
+.about-page h3 {
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  margin-top: 30px;
+}
+.about-page p {
+  margin-top: 30px;
+}
+
 .hannah-photo {
   max-width: 100%;
   border-radius: 20px;
