@@ -14,6 +14,19 @@
     border-radius: 20px !important;
     padding: 25px 40px !important;
   }
+
+  .about-page h2 {
+    font-size: 20px !important;
+  }
+
+  .about-page h3 {
+    font-size: 15px !important;
+  }
+
+  .col-6 {
+    width: 100% !important;
+    margin-top: 50px !important;
+  }
 }
 
 :root {
