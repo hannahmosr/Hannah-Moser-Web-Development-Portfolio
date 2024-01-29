@@ -5,6 +5,9 @@
   .container {
     margin-top: 0 !important;
   }
+  .container h2 {
+    margin-top: 10px !important;
+  }
 
   .container p {
     margin: 55px 85px !important;
@@ -23,9 +26,9 @@
     font-size: 25px !important;
   }
 
-  .col-6 {
-    width: 100% !important;
-    margin-top: 50px !important;
+  .hannah-photo {
+    width: 100%;
+    padding-left: 55px;
   }
 }
 
@@ -80,7 +83,7 @@ p {
   border: 1px solid var(--secondary-branding-color);
 }
 
-.container {
+.homepage .container {
   margin-top: 236px;
 }
 
@@ -122,4 +125,19 @@ p {
 .hannah-photo {
   max-width: 100%;
   border-radius: 20px;
+}
+
+.view-projects-button {
+  border-radius: 4px;
+  background-color: var(--secondary-branding-color);
+  font-size: 18px;
+  color: white;
+  line-height: 27px;
+  padding: 12px 20px;
+  font-family: var(--secondary-font-family);
+}
+
+.view-projects-button:hover {
+  color: var(--secondary-branding-color);
+  border: 1px solid var(--secondary-branding-color);
 }
