@@ -1,3 +1,10 @@
+:root {
+  --main-heading-font-family: "Playfair Display", serif;
+  --secondary-font-family: "Poppins", sans-serif;
+  --main-branding-color: #f9f7fe;
+  --secondary-branding-color: #6c63ff;
+}
+
 @media (max-width: 600px) {
   body {
     text-align: center;
@@ -40,13 +47,6 @@
     width: 100%;
     padding-left: 55px;
   }
-}
-
-:root {
-  --main-heading-font-family: "Playfair Display", serif;
-  --secondary-font-family: "Poppins", sans-serif;
-  --main-branding-color: #f9f7fe;
-  --secondary-branding-color: #6c63ff;
 }
 
 h2,
@@ -166,4 +166,10 @@ h4 {
 .work-description {
   margin: 10px 0 40px !important;
   text-align: center;
+}
+
+.navbar-custom {
+  font-family: var(--secondary-font-family);
+  color: var(--main-branding-color);
+  background-color: var(--main-branding-color);
 }
