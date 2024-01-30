@@ -117,7 +117,11 @@ p {
   color: white;
 }
 
-.about-page h3 {
+.content {
+  padding: 160px 20px;
+}
+
+.content h3 {
   font-family: var(--secondary-font-family);
   font-weight: bold;
   margin-top: 30px;
