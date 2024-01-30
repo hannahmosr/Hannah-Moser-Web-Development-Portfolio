@@ -9,7 +9,7 @@
   body {
     text-align: center;
   }
-  .container {
+  .content-container {
     margin-top: 0 !important;
   }
 
@@ -22,7 +22,7 @@
     font-size: 30px !important;
   }
 
-  .container p {
+  .content-container p {
     margin: 55px 85px !important;
   }
 
@@ -172,4 +172,32 @@ h4 {
   font-family: var(--secondary-font-family);
   color: var(--main-branding-color);
   background-color: var(--main-branding-color);
+}
+
+nav {
+  padding: 20px 0;
+  background-color: var(--main-branding-color);
+  font-family: var(--secondary-font-family);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-branding-color);
+  transition: 100ms all ease-in-out;
+}
+
+.nav-name {
+  font-size: 25px;
 }
