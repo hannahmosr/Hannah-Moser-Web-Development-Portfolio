@@ -5,8 +5,14 @@
   .container {
     margin-top: 0 !important;
   }
-  .container h2 {
+
+  .content {
+    margin: 0 !important;
+  }
+
+  .content h2 {
     margin-top: 10px !important;
+    font-size: 30px !important;
   }
 
   .container p {
@@ -50,6 +56,13 @@ p {
   font-family: var(--secondary-font-family);
 }
 
+h4 {
+  text-align: center;
+  margin: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .hero {
   text-align: center;
   background-color: var(--main-branding-color);
@@ -91,7 +104,7 @@ p {
   margin-top: 236px;
 }
 
-.container h2 {
+.content h2 {
   font-family: var(--main-heading-font-family);
   font-weight: bold;
   font-size: 64px;
@@ -118,7 +131,7 @@ p {
 }
 
 .content {
-  padding: 160px 20px;
+  margin: 0px 130px;
 }
 
 .content h3 {
@@ -148,4 +161,9 @@ p {
 .view-projects-button:hover {
   color: var(--secondary-branding-color);
   border: 1px solid var(--secondary-branding-color);
+}
+
+.work-description {
+  margin: 10px 0 40px !important;
+  text-align: center;
 }
