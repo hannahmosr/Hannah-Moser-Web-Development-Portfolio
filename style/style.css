@@ -73,6 +73,7 @@
 h2,
 h3,
 h4,
+h5,
 p {
   font-family: var(--secondary-font-family);
 }
@@ -105,7 +106,7 @@ h4 {
   font-size: 24px;
 }
 
-.hero-button {
+.branding-button {
   border-radius: 4px;
   background-color: var(--secondary-branding-color);
   font-size: 18px;
@@ -116,7 +117,7 @@ h4 {
   font-family: var(--secondary-font-family);
 }
 
-.hero-button:hover {
+.branding-button:hover {
   color: var(--secondary-branding-color);
   border: 1px solid var(--secondary-branding-color);
 }
@@ -136,7 +137,7 @@ h4 {
   margin: 55px 85px 55px 0;
 }
 
-.project-button {
+/* .project-button {
   font-family: var(--secondary-font-family);
   color: var(--secondary-branding-color);
   border: 1px solid var(--secondary-branding-color);
@@ -149,7 +150,7 @@ h4 {
 .project-button:hover {
   background-color: var(--secondary-branding-color);
   color: white;
-}
+} */
 
 .content {
   margin: 0px 130px;
@@ -215,10 +216,39 @@ nav li {
 nav a {
   text-decoration: none;
   color: black;
-  transition: 100ms all ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .nav-name {
   font-size: 25px;
   font-weight: bold;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-branding-color);
+}
+
+footer .social-links a {
+  margin: 40px 20px;
+  color: var(--secondary-branding-color);
+  background-color: var(--main-branding-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--secondary-branding-color);
 }
