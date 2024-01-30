@@ -69,6 +69,14 @@
     padding: auto !important;
     margin: auto !important;
   }
+
+  .contact-box h5 {
+    font-size: 20px;
+  }
+
+  .contact-box p {
+    font-size: 15px;
+  }
 }
 
 h2,
