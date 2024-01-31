@@ -150,6 +150,16 @@ p {
   margin-top: 20px;
 }
 
+.intext-link {
+  font-weight: bold;
+  color: var(--tertiary-branding-color);
+}
+
+.intext-link:hover {
+  color: var(--secondary-branding-color);
+  text-decoration: none;
+}
+
 .container p {
   margin: 55px 85px 55px 0;
 }
@@ -196,6 +206,10 @@ p {
   font-family: var(--secondary-font-family);
   color: var(--main-branding-color);
   background-color: var(--main-branding-color);
+}
+
+strong {
+  color: var(--secondary-branding-color);
 }
 
 nav {
