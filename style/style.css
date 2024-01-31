@@ -227,7 +227,8 @@ nav a {
 }
 
 nav li.active a,
-nav a:hover {
+nav a:hover,
+footer a {
   color: var(--secondary-branding-color);
 }
 
