@@ -58,7 +58,7 @@
 
   .hannah-photo {
     width: 100%;
-    padding-left: 55px;
+    margin-bottom: 20px;
   }
 
   .nav-name {
@@ -179,7 +179,8 @@ p {
 
 .hannah-photo {
   max-width: 100%;
-  margin-top: 100px;
+  margin-top: 40px;
+  border-radius: 4px;
 }
 
 .view-projects-button {
