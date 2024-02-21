@@ -283,3 +283,7 @@ footer .social-links a:hover {
   color: white;
   background-color: var(--secondary-branding-color);
 }
+
+.work img:hover {
+  opacity: 0.6;
+}
