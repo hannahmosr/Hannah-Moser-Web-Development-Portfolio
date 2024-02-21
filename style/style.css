@@ -77,6 +77,10 @@
   .contact-box p {
     font-size: 15px;
   }
+
+  .work p {
+    margin-top: 10px !important;
+  }
 }
 
 h2,
