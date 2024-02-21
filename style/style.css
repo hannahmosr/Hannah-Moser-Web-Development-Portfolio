@@ -230,7 +230,8 @@ nav li {
   margin-left: 15px;
 }
 
-nav a {
+nav a,
+.content-container a {
   text-decoration: none;
   color: black;
   transition: all 100ms ease-in-out;
@@ -243,7 +244,8 @@ nav a {
 
 nav li.active a,
 nav a:hover,
-footer a {
+footer a,
+.content-container a:hover {
   color: var(--secondary-branding-color);
 }
 
